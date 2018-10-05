@@ -1,0 +1,85 @@
+    .con{
+        background-color: #a1a1a1;
+        height: 30vh;
+    }
+
+
+    .row .col{
+        background-color: blueviolet;
+    }
+    
+    .row .col:nth-child(odd){
+        
+       background: pink;
+        /* text-align: center; */
+        /* background-size: cover; */
+    }
+
+    .row .col img{
+        
+        height: 100px;
+        width: 200px;
+        margin: 10%  10% ;
+    }
+   
+
+
+  
+     
+
+   
+
+  
+
+    @media (max-width:556px){
+
+        .col-xs-12
+        {
+            background-color: maroon;
+        }
+       
+    }
+
+    @media (min-width:557px) and (max-width: 767px){
+
+        .col-xs-12
+    {
+        background-color: aquamarine;
+    }
+    
+    }
+
+    /* md */
+    @media (min-width:768px) and (max-width:991px){
+
+        .col-sm-6{
+            background-color: green;
+        }
+    }
+
+    /* lg */
+    @media (min-width:992px) and (max-width:1199px){
+        .col-md-4{
+            background-color: orchid;
+        }
+  
+    }
+
+    @media (min-width:1200px) {
+
+        .col-lg-4{
+            background-color: pink;
+        }
+
+        .col-lg-6{
+            background-color: blueviolet;
+        }
+
+        .col-lg-2{
+            background-color: pink;
+        }
+
+    }
+
+   
+

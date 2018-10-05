@@ -1,0 +1,33 @@
+/* #2ecc71 */
+/* #f1c40f */
+/* #3498db */
+
+.con{
+    height: 100vh;
+    background-color: #f1c40f; 
+}
+
+.rowheight{
+    height: 200px;
+    background-color: black;
+}
+
+.row div:nth-child(odd){
+    background-color: #3498db;
+}
+
+
+.row div:nth-child(even){
+    background-color: #2ecc71;
+}
+
+.row .row div{
+    background-color: brown;
+}
+
+.row .row:nth-child(2){
+    background-color: pink;
+}
+
+
+

@@ -1,0 +1,35 @@
+    .con{
+        background: palevioletred;
+        height: 100vh;
+        
+        
+    }
+
+    /* .jumbotron-fluid {
+        padding: 2rem 1rem;
+        margin-bottom: 2rem;
+        
+        border-radius: .3rem;
+        
+    } */
+
+    .jumbotron-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 0;
+        background-color: forestgreen;
+        text-align: center;
+        color: white;
+    }
+
+    .jumbotron-fluid .display-3{
+
+        margin-top:1%;
+    }
+
+    .cd{
+
+        border: 2px solid red;
+        width: 30rem;
+    }
+   

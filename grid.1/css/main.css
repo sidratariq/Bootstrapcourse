@@ -1,0 +1,25 @@
+        /* #2ecc71 */
+        /* #f1c40f */
+        /* #3498db */
+
+    
+    
+        .con{
+            background-color:  #f1c40f ;
+            height: 100vh;
+        }
+
+        .rowheight{
+            height: 200px;
+            background-color: #000; 
+        }
+
+    
+        .row div:nth-child(odd){
+        background-color: #2ecc71 ;
+
+        }
+
+        .row div:nth-child(even){
+            background-color: #3498db;
+        }
